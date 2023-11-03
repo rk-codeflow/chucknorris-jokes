@@ -1,0 +1,46 @@
+body {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 500;
+}
+
+p {
+  font-weight: 300;
+}
+
+.jokes-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 0.85rem 1.3rem;
+  border-radius: 10px;
+  min-height: 50px;
+}
+
+button {
+  background-color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  color: rgb(14, 14, 14);
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
