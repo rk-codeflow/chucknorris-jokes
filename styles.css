@@ -44,3 +44,17 @@ button {
   justify-content: center;
   margin-top: 1rem;
 }
+
+.filter-by {
+  margin: 0 auto;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+select {
+  outline: none;
+  height: 35px;
+}
